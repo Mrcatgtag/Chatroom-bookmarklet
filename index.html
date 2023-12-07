@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Chatroom</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    #chatUI {
+      position: fixed;
+      bottom: 10px;
+      left: 10px;
+      width: 300px;
+      height: 400px;
+      border: 1px solid #ccc;
+      overflow-y: auto;
+      background-color: white;
+    }
+
+    #chatInputBox {
+      width: 90%;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="chatUI">
+    <div id="chatMessages"></div>
+    <input type="text" id="chatInputBox" placeholder="Type your message...">
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
